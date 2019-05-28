@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+</head>
+<body>
+	<h1>Contact Me</h1>
+	<a href="index.html"><h3>Go Back</h3></a>
+	<h2>Send me a message!</h2>
+	<!-- Use GET not POST -->
+	<form method="GET">
+		First name: <input type="text" name="firstname"><br>
+		Last name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Password: <input type="password" name="password" minlength="5"><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender: <br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		Pets: <br>
+		<input type="checkbox" name="cat" value="cats">Cats<br>
+		<input type="checkbox" name="dog" value="dogs">Dogs<br>
+		Cars<br>
+		<select><br>
+			<option value="hyundai" name="hyundai">Hyundai</option>
+			<option value="audi" name="audi">Audi</option>
+		</select><br>
+		<input type="submit" value="Send">
+		<input type="reset">
+	</form>
+</body>
+</html>
