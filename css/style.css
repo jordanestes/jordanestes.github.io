@@ -1,0 +1,12 @@
+body {
+	font-family: Helvetica;
+	margin: auto;
+	text-align: left; 
+	max-width: 40em; 
+	margin: 0 auto; 
+	padding: 5px;
+	line-height: 15px
+}
+h1 {
+	font-size: 70px;
+}
